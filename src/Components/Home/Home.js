@@ -34,6 +34,7 @@ const Home = () => {
     timeline.to(images[0], { opacity: 1, duration: 1 });
   }, []);
 
+  // add functionality for corousel
   useEffect(() => {
     const images = vounteer_corousel_ref.current.children;
     const timeline = gsap.timeline({ repeat: -1 });
